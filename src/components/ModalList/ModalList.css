@@ -1,0 +1,45 @@
+.modal-list {
+  width: 25vw;
+}
+
+.modal-list__heading h1 {
+  text-transform: capitalize;
+  text-align: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #0088ff;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.modal-list section {
+  height: 40rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal-list__list {
+  list-style: none;
+  padding: 2rem;
+}
+
+.modal-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.modal-list__btn {
+  width: fit-content;
+  text-transform: capitalize;
+  margin-left: auto;
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 1px solid #0088ff;
+}
+
+.modal-list ::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.modal-list ::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}

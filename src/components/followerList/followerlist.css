@@ -1,0 +1,32 @@
+.follower-list {
+  padding: 1.5rem;
+  /* background-color: #fff; */
+}
+.follower-list h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.followers {
+  list-style: none;
+  padding: 1rem;
+}
+
+.followers__profile {
+  display: flex;
+  align-items: center;
+}
+
+.followers__name {
+  font-size: 1.25rem;
+}
+
+.followers__img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50px;
+  margin: 1rem 1rem 1rem 0;
+  font-size: 1.25rem;
+  line-height: 1;
+}

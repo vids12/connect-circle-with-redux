@@ -1,0 +1,12 @@
+.edit {
+  background-color: var(--secondary-color);
+  height: 100vh;
+  padding-top: 4rem;
+}
+
+.edit__box {
+  width: 90%;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 2px;
+}
