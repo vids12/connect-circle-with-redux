@@ -1,0 +1,14 @@
+.profile__follow-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__follow-btns button {
+  margin: 2rem 1rem;
+}
+
+.profile__btn {
+  background-color: transparent;
+  color: var(--primary-color);
+}

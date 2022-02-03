@@ -12,7 +12,7 @@ export function ModalList({ heading }) {
             .fill("")
             .map((data) => {
               return (
-                <li className="modal-list__item">
+                <li className="modal-list__item" key={Math.random()}>
                   <img
                     src="https://images.unsplash.com/photo-1457449940276-e8deed18bfff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
                     alt="user-pic"

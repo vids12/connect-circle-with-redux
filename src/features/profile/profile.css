@@ -1,0 +1,16 @@
+.profile__main {
+  border-top: grey 1px solid;
+  margin: 0 5rem;
+  padding: 1rem;
+  height: auto;
+}
+
+.profile__list {
+  list-style: none;
+}
+
+.post__heading {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 500;
+}

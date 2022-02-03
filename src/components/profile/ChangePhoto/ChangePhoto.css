@@ -1,0 +1,18 @@
+.profile-photo__btn {
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.profile_upload-btn {
+  color: var(--primary-color);
+}
+
+.profile_remove-btn {
+  color: tomato;
+}
