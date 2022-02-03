@@ -2,7 +2,8 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Layout, Modal } from "./components";
-import { Edit, Home, Login, Profile, SeeAll } from "./pages";
+import { Edit, Home, Login, SeeAll } from "./pages";
+import { Profile } from "./features/index";
 
 function App() {
   return (
