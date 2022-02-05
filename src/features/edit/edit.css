@@ -1,12 +1,36 @@
 .edit {
   background-color: var(--secondary-color);
-  height: 100vh;
+  height: 120vh;
   padding-top: 4rem;
 }
 
 .edit__box {
-  width: 90%;
-  background-color: #fff;
+  width: 70%;
   margin: 0 auto;
-  border-radius: 2px;
+
+  height: 99%;
+  overflow: hidden;
+  position: relative;
+}
+
+.edit__form {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  border-radius: 5px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn-group button {
+  margin-right: 2rem;
 }
